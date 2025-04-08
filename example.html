@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonya Ruje | Creative Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    body {
+      background: linear-gradient(to right, #1a1a1a, #2d033b);
+      color: #fff;
+    }
+    .card {
+      background: linear-gradient(to bottom right, #ff69b4, #dda0dd);
+      color: #1a1a1a;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+    }
+    .modal-content {
+      background: #1a1a1a;
+      color: #fff;
+    }
+    .btn {
+      background-color: #ff69b4;
+      color: #fff;
+    }
+    .btn:hover {
+      background-color: #ff1493;
+    }
+    section {
+      padding: 4rem 1rem;
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <header class="text-center py-10">
+    <h1 class="text-5xl font-bold text-pink-400">Sonya Ruje</h1>
+    <nav class="mt-4 space-x-4">
+      <a href="#about" class="text-purple-200 hover:text-pink-400">About Me</a>
+      <a href="#projects" class="text-purple-200 hover:text-pink-400">Projects</a>
+      <a href="#contact" class="text-purple-200 hover:text-pink-400">Contact</a>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto">
+    <section id="about">
+      <h2 class="text-4xl font-bold text-pink-300 mb-4">About Me</h2>
+      <p class="text-purple-200 text-lg mb-4">I'm Sonya Ruje, a Creative Computing student from Romania with a strong interest in combining design and technology to create compelling digital experiences.</p>
+      <p class="text-purple-200 text-lg">My work spans across games, apps, website redesigns, and interactive projects—allowing me to explore both the creative and technical aspects of digital media.</p>
+    </section>
+
+    <section id="projects">
+      <h2 class="text-4xl font-bold text-pink-300 mb-6">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl shadow-md card">
+          <h3 class="text-xl font-semibold mb-2">Whiskey’s Adventure - 2D Platformer</h3>
+          <ul class="list-disc ml-5">
+            <li>Developed a 2D platformer in Unity featuring retro-inspired gameplay with modern pixel art visuals.</li>
+            <li>Designed characters and environments in Krita to create a unique style.</li>
+            <li>Implemented core mechanics in C#, including player movement, enemies, and level obstacles.</li>
+            <li>Created biome-themed levels with distinct visual elements.</li>
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-xl shadow-md card">
+          <h3 class="text-xl font-semibold mb-2">Social Impact Card Deck & App</h3>
+          <ul class="list-disc ml-5">
+            <li>Collaborated with a team to create a brand focused on impacting teenagers through physical and digital products.</li>
+            <li>Designed a card deck encouraging social interaction, personal growth, and awareness of social issues.</li>
+            <li>Integrated a mobile app with digital features like progress tracking and social sharing.</li>
+            <li>Conducted research on teen behavior to ensure relevance and effectiveness.</li>
+            <li>Contributed to branding, packaging, and user experience for cohesive presentation.</li>
+            <li>Presented a cohesive brand merging physical and digital engagement for meaningful experiences.</li>
+          </ul>
+        </div>
+
+        <div class="p-6 rounded-xl shadow-md card">
+          <h3 class="text-xl font-semibold mb-2">Suicide&Co App Redesign</h3>
+          <ul class="list-disc ml-5">
+            <li>Collaborated on a full redesign of the Suicide&Co app, focusing on accessibility and user experience for those seeking bereavement support.</li>
+            <li>Contributed to various UI elements and interface design decisions.</li>
+            <li>Applied constructive feedback throughout the project to improve design quality.</li>
+            <li>Engaged in design discussions to align the visuals with the app's purpose and user needs.</li>
+            <li>Delivered a prototype that emphasized ease of navigation and emotional sensitivity.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="text-4xl font-bold text-pink-300 mb-4">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-800 text-white" required>
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-800 text-white" required>
+        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded bg-gray-800 text-white" required></textarea>
+        <button type="submit" class="btn px-6 py-2 rounded">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    ScrollReveal().reveal('section, .card', { delay: 200, distance: '50px', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>
