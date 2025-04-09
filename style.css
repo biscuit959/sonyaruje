@@ -1,5 +1,5 @@
 /* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url(https://fonts.google.com/share?selection.family=Dancing+Script:wght@400..700|Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800|Underdog);
 
 /* Global Styles */
 * {
@@ -201,6 +201,7 @@ nav {
 .project-card h3,
 .project-card p {
   margin-bottom: 1.5rem;  
+ ;
 }
 
 /* Contact Section */
@@ -221,7 +222,7 @@ nav {
 }
 
 a {
-  color: #D9B8C4;
+  color: #886270;
   text-decoration: none;
 }
 
