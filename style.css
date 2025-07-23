@@ -375,13 +375,13 @@ h1, h2, h3, h4, h5, h6, p {
   object-fit: contain;
   justify-content: right;
   margin-bottom: -1rem; /* Space between icon and text */
-  margin-top: -7rem;
+  margin-top: -9rem;
   margin-left: 33rem;
 }
 .image-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns */
-  gap: 2rem;
+  grid-template-columns: 1fr 2fr; /* Two columns */
+  gap: 3rem;
   border-radius: 20px;
   justify-items: center;
   align-items: center;
@@ -398,15 +398,56 @@ justify-content: center;
 
 }
 
-.pic14 {
- width: 750px;
-  height: 800px;
+.grid-img1{
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Maintain aspect ratio */
+  height: auto;
   object-fit: contain;
   justify-content: center;
-  margin-bottom: 1rem; /* Space between icon and text */
-  margin-top: -4rem;
-  margin-left: 5rem;
+  border-radius: 20px; /* optional: for nice corners */
+  margin-left: 2rem;
 }
+
+.grid-img2{
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Maintain aspect ratio */
+  height: auto;
+  object-fit: contain;
+  justify-content: center;
+  border-radius: 20px; /* optional: for nice corners */
+  margin-left: 2rem;
+}
+
+.grid-img3{
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Maintain aspect ratio */
+  height: auto;
+  object-fit: contain;
+  justify-content: center;
+  border-radius: 20px; /* optional: for nice corners */
+  margin-left: 2rem;
+}
+
+.grid-img4{
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Maintain aspect ratio */
+  height: auto;
+  object-fit: contain;
+  justify-content: center;
+  border-radius: 20px; /* optional: for nice corners */
+  margin-left: 2rem;
+}
+
+.video1 {
+  width: 900px;
+  height: 500px;
+  object-fit: contain;
+  display: block; /* Optional: removes inline space */
+  margin: 4rem auto 1rem auto; /* centers it and gives top/bottom spacing */
+  margin-left: 1.5rem;
+}
+
+
 
 video {
   width: 900px;
@@ -420,13 +461,13 @@ video {
 /*Page 3 */
 
 .pic15{
-  width: 300px;
+  width: 400px;
   height: 180px;
   object-fit: contain;
   justify-content: right;
   margin-bottom: 0rem; /* Space between icon and text */
   margin-top: -10rem;
-  margin-left: 30rem;
+  margin-left: 29rem;
 }
 
 .pic16{
@@ -435,7 +476,7 @@ video {
   object-fit: contain;
   justify-content: center;
   margin-bottom: 1rem; /* Space between icon and text */
-  margin-top: -10rem;
+  margin-top: -9rem;
   margin-left: 5rem;
 }
 
@@ -474,8 +515,8 @@ video {
   height: 180px;
   object-fit: contain;
   justify-content: right;
-  margin-bottom: -1rem; /* Space between icon and text */
-  margin-top: -10rem;
+  margin-bottom: -1rem; 
+  margin-top: -12rem;
   margin-left: 30rem;
 }
 
