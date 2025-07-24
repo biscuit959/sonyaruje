@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6, p {
   object-fit: contain;
   justify-content: right;
   margin-bottom: 1rem; /* Space between icon and text */
-  margin-top: -13rem;
+  margin-top: -8rem;
   margin-left: 33rem;
 }
 .image-grid {
