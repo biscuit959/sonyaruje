@@ -286,12 +286,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .pic5{
-  width: 450px;
-  height: 800px;
+  width: 350px;
+  height: 500px;
   object-fit: contain;
   justify-content: center;
   margin-bottom: 1rem; /* Space between icon and text */
-  margin-top: -10rem;
+  margin-top: -1rem;
   border-radius: 10px; /* Rounded corners */
 }
 
