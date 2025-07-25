@@ -1,59 +1,89 @@
 @media (max-width: 768px) {
-  /* Make nav stack vertically */
+  /* Container width and padding */
+  .container, .container1 nav, .container2, .container3, .container4 {
+    max-width: 95%;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+  }
+
+  /* Nav links stack vertically, full width */
   .container1 nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    padding: 1rem;
   }
 
-  .container1 .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    width: 100%;
-  }
-
-  .container1 .nav-links a {
-    width: 100%;
-    display: block;
-    text-align: left;
-    padding: 0.5rem 0;
-  }
-
-  /* Adjust text and section box sizes */
-  .container,
-  .container2 {
-    padding: 1rem;
+  .container1 nav a {
+    width: 100%; /* Full width buttons */
+    margin: 0;
+    padding: 0.75rem 0;
     font-size: 1rem;
-  }
-
-  .container1 .logo {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  /* Center or stack skill icons */
-  .skills-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-  }
-
-  .skills-grid .skill {
-    width: 80%;
     text-align: center;
   }
 
-  /* Image responsiveness */
-  img {
-    max-width: 100%;
-    height: auto;
+  /* Flex containers stack vertically */
+  .container2, .container3 {
+    flex-direction: column;
+    gap: 1rem;
   }
 
-  /* Improve box spacing */
-  .box {
-    margin-bottom: 1.5rem;
+  /* Big container grid changes to 2 columns or 1 */
+  .big-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
     padding: 1rem;
+  }
+
+  /* Info boxes centered and narrower */
+  .info-box, .info-box2 {
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  /* Images scale down and margin reset */
+  .pic, .pic2, .pic3, .pic4, .pic5, .pic6,
+  .pic7, .pic8, .pic9, .pic10, .pic11, .pic12,
+  .pic13, .pic15, .pic16, .pic17, .pic18, .pic19,
+  .pic20, .pic21, .pic22 {
+    width: 90%;
+    height: auto;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    border-radius: 10px;
+  }
+
+  /* Skills grid stacks */
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  /* Project links grid stacks */
+  .project-links {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Video responsive */
+  video, .video1, .video2 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Headings smaller */
+  .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Profile picture slightly larger for touch */
+  .profile-pic {
+    width: 40px;
+    height: 40px;
   }
 }
