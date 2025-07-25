@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 10px; /* Rounded corners */
 }
 
-* ----------------------------- */
+/* ----------------------------- */
 /* 🌐 Responsive Styles */
 @media (max-width: 768px) {
   .container1 nav {
@@ -279,6 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 36px;
     margin-bottom: 1rem;
   }
+}
 
 .pic2{
   width: 400px;
