@@ -704,18 +704,21 @@ video {
   .container1 nav {
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem;
+    gap: 1rem;
   }
 
   .container1 .nav-links {
     flex-direction: column;
-    gap: 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
     width: 100%;
   }
 
-  .container1 nav a {
+  .container1 .nav-links a {
+    display: block;
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 0;
+    padding: 0.5rem 0;
   }
 
   .container {
@@ -727,6 +730,11 @@ video {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+  }
+
+  .profile-pic {
+    width: 30px;
+    height: 30px;
   }
 
   .container1 .logo {
