@@ -41,19 +41,41 @@
     padding: 1rem;
   }
 
-  /* Images scale down and margin reset */
+ /* Base styles for all screen sizes */
+.pic, .pic2, .pic3, .pic4, .pic5, .pic6,
+.pic7, .pic8, .pic9, .pic10, .pic11, .pic12,
+.pic13, .pic15, .pic16, .pic17, .pic18, .pic19,
+.pic20, .pic21, .pic22 {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1rem 0;
+  border-radius: 8px;
+}
+
+/* Tablet and larger screens (768px and up) */
+@media (min-width: 768px) {
   .pic, .pic2, .pic3, .pic4, .pic5, .pic6,
   .pic7, .pic8, .pic9, .pic10, .pic11, .pic12,
   .pic13, .pic15, .pic16, .pic17, .pic18, .pic19,
   .pic20, .pic21, .pic22 {
     width: 90%;
-    height: auto;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    margin-bottom: 1rem !important;
+    margin: 0 auto 1rem auto;
     border-radius: 10px;
   }
+}
 
+/* Optional: For very small mobile devices (480px and below) */
+@media (max-width: 480px) {
+  .pic, .pic2, .pic3, .pic4, .pic5, .pic6,
+  .pic7, .pic8, .pic9, .pic10, .pic11, .pic12,
+  .pic13, .pic15, .pic16, .pic17, .pic18, .pic19,
+  .pic20, .pic21, .pic22 {
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+  }
+}
   /* Skills grid stacks */
   .skills-grid {
     grid-template-columns: 1fr 1fr;
